@@ -1,0 +1,51 @@
+{
+  "name": "olympus-tools",
+  "version": "0.0.12",
+  "description": "Command-Line Interface for Olympus",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlympusOrganisation/olympus-tools.git"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": "^4.5 || >=5.10"
+  },
+  "engineStrict": true,
+  "author": "Olympus (https://olympus-1bd1a.firebaseapp.com)",
+  "bugs": {
+    "url": "https://github.com/OlympusOrganisation/olympus-tools/issues"
+  },
+  "files": [
+    "bin/**",
+    "lib/**",
+    "commands/**",
+    "templates/**",
+    "index.js"
+  ],
+  "homepage": "https://github.com/OlympusOrganisation/olympus-tools",
+  "dependencies": {
+    "cjson": "^0.3.3",
+    "cli-color": "^1.4.0",
+    "commander": "^2.8.1",
+    "configstore": "^1.4.0",
+    "cross-spawn": "^4.0.2",
+    "didyoumean": "^1.2.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^0.23.1",
+    "google-auto-auth": "^0.7.2",
+    "http": "0.0.0",
+    "inquirer": "^0.12.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.11",
+    "opn": "^5.4.0",
+    "path": "^0.12.7",
+    "portfinder": "^1.0.20",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "stream": "0.0.2",
+    "universal-analytics": "^0.4.16",
+    "user-home": "^2.0.0",
+    "winston": "^1.0.1"
+  }
+}
